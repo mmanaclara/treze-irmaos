@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
-    background: #121214;
+    background: ${props => props.theme.gray900};
     color: #fff;
 `
