@@ -17,7 +17,9 @@ export function Home() {
       </Welcome>
 
       <NextMeetings>
-        <header>Próximas palestras</header>
+        <header>
+            <h4>Próximas palestras</h4>
+        </header>
 
         <BoxMeeting>
             <MeetingDate>

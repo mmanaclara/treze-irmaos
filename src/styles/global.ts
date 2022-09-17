@@ -25,4 +25,12 @@ export const GlobalStyle = createGlobalStyle`
   body, input, textarea, button {
     font: 400 1.6rem Raleway, sans-serif;
   }
+
+  h4 {
+    font-size: 2rem;
+    border-bottom: 1px solid ${props => props.theme.gray200};
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
 `
