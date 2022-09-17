@@ -2,6 +2,7 @@ import type { AppProps } from 'next/app'
 import { ThemeProvider } from 'styled-components'
 
 import { Header } from '../components/Header'
+import { Home } from '../components/Home'
 
 import { GlobalStyle } from '../styles/global'
 import { Container } from '../styles/pages/app'
@@ -12,6 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Container>
       <ThemeProvider theme={defaultTheme}>
         <Header />
+        <Home />
         
         <Component {...pageProps} />
         <GlobalStyle />
