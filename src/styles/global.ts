@@ -6,6 +6,10 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+
+  :root {
+    font-size: 62.5%; // 1rem -> 10px
+  }
   
   :focus {
     outline: 0;
@@ -19,6 +23,6 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   body, input, textarea, button {
-    font: 400 1rem Raleway, sans-serif;
+    font: 400 1.6rem Raleway, sans-serif;
   }
 `
