@@ -9,6 +9,7 @@ export const AboutContainer = styled.section`
     margin-top: 1.5rem;
     width: min(118rem, 100%);
     padding-inline: 2.5rem;
+
 `
 
 export const Wrapper = styled.div`
@@ -38,6 +39,7 @@ export const TextContent = styled.div`
 
     a {
         padding: 1rem 4.5rem;
+        margin-top: auto;
         width: fit-content;
         border-radius: 8px;
         box-shadow: 0 4px 4px rgba(0,0,0,0.35);
@@ -48,3 +50,12 @@ export const TextContent = styled.div`
         font-weight: bold;
     }
 `
+
+export const SlideContainer = styled.div`
+
+`
+
+export const SlideWrapper = styled.div`
+
+`
+
