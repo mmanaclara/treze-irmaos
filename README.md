@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=ReactJS&message=Ignite&color=2166A5&labelColor=141716" alt="Trilha ReactJS do Ignite" />
+  <img src="https://img.shields.io/static/v1?label=ReactJS&message=NextJS&color=2166A5&labelColor=141716" alt="ReactJS com NextJS" />
   <img alt="Linguagem mais usada na aplicação" src="https://img.shields.io/github/languages/top/mmanaclara/treze-irmaos?color=2166A5&labelColor=141716">
   <img alt="Contagem de linguagens usadas na aplicação" src="https://img.shields.io/github/languages/count/mmanaclara/treze-irmaos?color=2166A5&labelColor=141716">
   <img alt="Último commit" src="https://img.shields.io/github/last-commit/mmanaclara/treze-irmaos?color=2166A5&labelColor=141716">
