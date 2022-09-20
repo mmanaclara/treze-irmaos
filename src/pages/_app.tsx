@@ -1,11 +1,8 @@
 import type { AppProps } from 'next/app'
 import { ThemeProvider } from 'styled-components'
-import { About } from '../components/About'
-import { Activities } from '../components/Activities'
-import { Footer } from '../components/Footer'
 
 import { Header } from '../components/Header'
-import { Home } from '../components/Home'
+import { Footer } from '../components/Footer'
 
 import { GlobalStyle } from '../styles/global'
 import { Container } from '../styles/pages/app'
@@ -16,12 +13,10 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Container>
       <ThemeProvider theme={defaultTheme}>
         <Header />
-        <Home />
-        <About />
-        <Activities />
-        <Footer />
         
         <Component {...pageProps} />
+
+        <Footer />
         <GlobalStyle />
       </ThemeProvider>
     </Container>

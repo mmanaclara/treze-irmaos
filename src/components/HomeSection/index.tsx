@@ -4,7 +4,7 @@ import Image from "next/image"
 import backgroundImg from '../../assets/field-bg.png'
 import logoSeti from '../../assets/logo-seti.png'
 
-export function Home() {
+export function HomeSection() {
   return (
     <HomeContainer style={{ backgroundImage: `url(${backgroundImg.src})` }}>
       <Image src={logoSeti} width="125" height="125" alt="" />

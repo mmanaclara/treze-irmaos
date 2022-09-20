@@ -26,12 +26,13 @@ export const Wrapper = styled.div`
 export const AddressContent = styled.div`
     strong {
         display: block;
-        font-weight: 500;
+        font-weight: 400;
         margin-bottom: 1.5rem;
     }
 
     p {
         line-height: 2.2rem;
+        font-weight: 400;
     }
 `
 
@@ -46,7 +47,9 @@ export const Menu = styled.div`
 
     a {
         text-decoration: none;
+        line-height: 2.2rem;
         color: ${props => props.theme.gray100};
+        font-weight: 400;
     }
 `
 
