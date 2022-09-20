@@ -39,4 +39,9 @@ export const GlobalStyle = createGlobalStyle`
     border-radius: 8px;
     object-fit: contain;
   }
+
+  *::selection {
+    background: ${props => props.theme.blue600};
+    color: ${props => props.theme.gray100};
+  }
 `

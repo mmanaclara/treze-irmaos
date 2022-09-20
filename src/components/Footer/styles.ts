@@ -47,7 +47,7 @@ export const Menu = styled.div`
 
     a {
         text-decoration: none;
-        line-height: 2.2rem;
+        line-height: 2.5rem;
         color: ${props => props.theme.gray100};
         font-weight: 400;
     }
@@ -56,4 +56,8 @@ export const Menu = styled.div`
 export const SocialMedia = styled.div`
     display: flex;
     gap: 3.2rem;
+
+    a {
+        color: ${props => props.theme.gray100};
+    }
 `

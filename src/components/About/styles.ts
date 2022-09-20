@@ -39,7 +39,6 @@ export const TextContent = styled.div`
 
     a {
         padding: 1rem 4.5rem;
-        margin-top: auto;
         width: fit-content;
         border-radius: 8px;
         box-shadow: 0 4px 4px rgba(0,0,0,0.35);

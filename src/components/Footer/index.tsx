@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
+
+import { FiInstagram, FiFacebook } from 'react-icons/fi'
+import { ImWhatsapp } from 'react-icons/im'
+
 import { AddressContent, FooterContainer, Menu, SocialMedia, Wrapper } from "./styles";
 
 import logoImg from '../../assets/logo.svg'
-import instagramIcon from '../../assets/instagram.svg'
-import facebookIcon from '../../assets/facebook.svg'
-import whatsappIcon from '../../assets/whatsapp.svg'
 
 export function Footer () {
     return (
@@ -49,14 +50,26 @@ export function Footer () {
                 </Menu>
 
                 <SocialMedia>
-                    <a href="#">
-                        <Image src={instagramIcon} alt="" />
+                    <a 
+                        href="https://www.instagram.com/cetrezeirmaos/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        <FiInstagram size={24} />
                     </a>
-                    <a href="#">
-                        <Image src={facebookIcon} alt="" />
+                    <a 
+                        href="https://www.facebook.com/Centro-Espirita-TREZE-Irm%C3%A3os-898350110344824"
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        <FiFacebook size={24} />
                     </a>
-                    <a href="#">
-                        <Image src={whatsappIcon} alt="" />
+                    <a 
+                        href="https://wa.me/5583993820257" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        <ImWhatsapp size={24} />
                     </a>
                 </SocialMedia>
             </Wrapper>

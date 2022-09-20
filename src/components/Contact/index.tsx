@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 
 import { FiMapPin, FiInstagram, FiFacebook } from 'react-icons/fi'
 import { ImWhatsapp } from 'react-icons/im'
@@ -44,7 +43,11 @@ export function Contact() {
                         <span>/cetrezeirmaos</span>
                     </SocialMedia>
 
-                    <a href="https://wa.me/5583993820257" target="_blank" rel="noopener noreferrer">
+                    <a 
+                        href="https://wa.me/5583993820257" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
                         <ImWhatsapp size={20} style={{ color: '#fff' }} />
                         Fala com a gente!
                     </a>
