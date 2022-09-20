@@ -33,4 +33,10 @@ export const GlobalStyle = createGlobalStyle`
     text-transform: uppercase;
     font-weight: 400;
   }
+
+  a {
+    text-decoration: none;
+    border-radius: 8px;
+    object-fit: contain;
+  }
 `

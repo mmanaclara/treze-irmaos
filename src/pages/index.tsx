@@ -1,6 +1,7 @@
 import { About } from '../components/About'
 import { Activities } from '../components/Activities'
 import { Bookshop } from '../components/Bookshop'
+import { Contact } from '../components/Contact'
 import { HomeSection } from '../components/HomeSection'
 import { Schedule } from '../components/Schedule'
 
@@ -14,6 +15,7 @@ export default function Home() {
         <Activities />
         <Schedule /> 
         <Bookshop />
+        <Contact />
     </HomeContainer>
   )
 }
