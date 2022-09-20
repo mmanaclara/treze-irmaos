@@ -29,19 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Styled Components](https://styled-components.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 
-## Utilização do projeto
-
-### 💾 Baixar o projeto
-Faça o clone do repositório para ter uma versão do projeto em sua máquina:<br/>
-`$ git clone https://github.com/mmanaclara/treze-irmaos.git`
-
-### 🧰 Instalar dependências
-`$ npm install ou yarn`  
-
-### 🚀 Iniciar o projeto
-`$ npm run dev ou yarn dev`
-<br />
-Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
-
-## 📝 Licença
-Este projeto está licenciado nos termos da licença [MIT](https://github.com/mmanaclara/treze-irmaos/blob/main/LICENSE). 
+## 📖 Conhecimento
+No projeto, utilizei: 
+* `Typescript` para adicionar tipagem estática ao JavaScript;
+* `styled-components` para estilização;
