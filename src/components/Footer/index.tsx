@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { NextSeo } from 'next-seo';
 
 import { FiInstagram, FiFacebook } from 'react-icons/fi'
 import { ImWhatsapp } from 'react-icons/im'

@@ -34,7 +34,7 @@ export function Header() {
                 <a href="#">Contato</a>
             </li>
             <li>
-                <a href="#">Blog</a>
+                <a href="blog">Blog</a>
             </li>
             
         </ul>
