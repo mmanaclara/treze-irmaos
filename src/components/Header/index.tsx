@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { HeaderContainer, Menu, SocialMediaMenu } from './styles'
 
 import Image from 'next/image'
@@ -16,25 +17,39 @@ export function Header() {
       <Menu>
         <ul>
             <li>
-                <a href="#">Início</a>
+                <Link href="/">
+                    <a>Início</a>
+                </Link>
             </li>
             <li>
-                <a href="#">Sobre</a>
+                <Link href="#about">
+                    <a>Sobre</a>
+                </Link>
             </li>
             <li>
-                <a href="#">Atividades</a>
+                <Link href="#activities">
+                    <a>Atividades</a>
+                </Link>
             </li>
             <li>
-                <a href="#">Programação</a>
+                <Link href="#schedule">
+                    <a>Programação</a>
+                </Link>
             </li>
             <li>
-                <a href="#">Livraria</a>
+                <Link href="#books">
+                    <a>Livraria</a>
+                </Link>
             </li>
             <li>
-                <a href="#">Contato</a>
+                <Link href="#contact">
+                    <a>Contato</a>
+                </Link>
             </li>
             <li>
-                <a href="blog">Blog</a>
+                <Link href="/blog">
+                    <a>Blog</a>
+                </Link>
             </li>
             
         </ul>

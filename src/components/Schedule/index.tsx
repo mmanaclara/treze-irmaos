@@ -8,7 +8,7 @@ import { ScheduleContainer, Wrapper, ScheduleBox } from './styles'
 
 export function Schedule() {
     return (
-        <ScheduleContainer>
+        <ScheduleContainer id="schedule">
             <header>
                 <h4>Programação</h4>
             </header>

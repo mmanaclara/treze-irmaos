@@ -9,7 +9,7 @@ import React, { useState } from 'react';
 
 export function About() {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
         <header>
             <h4>Sobre</h4>
         </header>

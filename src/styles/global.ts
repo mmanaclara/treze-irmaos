@@ -16,6 +16,10 @@ export const GlobalStyle = createGlobalStyle`
     box-shadow: 0 0 0 2px ${(props) => props.theme.blue600};
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: ${(props) => props.theme.white};
     color: ${(props) => props.theme.gray700};

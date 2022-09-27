@@ -3,7 +3,7 @@ import { ActivitiesContainer, Wrapper, BoxContainer, ActivityInfo } from "./styl
 
 export function Activities() {
     return (
-        <ActivitiesContainer>
+        <ActivitiesContainer id="activities">
             <header>
                 <h4>Atividades</h4>
             </header>
@@ -16,7 +16,7 @@ export function Activities() {
                     <FaHeart size={65} />
                     
                     <ActivityInfo>
-                        <strong>Toda quinta feira</strong>
+                        <strong>Toda quinta-feira</strong>
                         <span>Às 18h30</span>
                     </ActivityInfo>
                 </BoxContainer>
@@ -28,7 +28,7 @@ export function Activities() {
 
                     <FaMicrophoneAlt size={65} />
                     <ActivityInfo>
-                        <strong>Toda quinta feira</strong>
+                        <strong>Toda quinta-feira</strong>
                         <span>Às 19h30</span>
                     </ActivityInfo>
                 </BoxContainer>

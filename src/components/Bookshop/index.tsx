@@ -11,7 +11,7 @@ import bookImg4 from '../../../public/book-4.png'
 
 export function Bookshop() {
     return (
-        <BookshopContainer>
+        <BookshopContainer id="books">
             <div>
                 <header>
                     <h4>Livraria</h4>

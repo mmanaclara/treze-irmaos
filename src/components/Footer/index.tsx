@@ -26,25 +26,25 @@ export function Footer () {
 
                 <Menu>
                     <div>
-                        <Link href="#">
+                        <Link href="#home">
                             <a>Início</a>
                         </Link>
-                        <Link href="#">
+                        <Link href="#about">
                             <a>Sobre</a>
                         </Link>
-                        <Link href="#">
+                        <Link href="#activities">
                             <a>Atividades</a>
                         </Link>
                     </div>
 
                     <div>
-                        <Link href="#">
+                        <Link href="#schedule">
                             <a>Programação</a>
                         </Link>
-                        <Link href="#">
+                        <Link href="#books">
                             <a>Livraria</a>
                         </Link>
-                        <Link href="#">
+                        <Link href="#contact">
                             <a>Contato</a>
                         </Link>
                     </div>

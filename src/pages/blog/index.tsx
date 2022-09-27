@@ -1,6 +1,7 @@
 import { NextSeo } from 'next-seo';
 import Link from 'next/link'
 import Image from 'next/image'
+
 import { BannerContainer, BlogContainer, ContentContainer, ImageLeft, ImageRight, Wrapper } from "./styles";
 
 import bannerImg from '../../assets/banner.png'
