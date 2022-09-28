@@ -40,7 +40,6 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     text-decoration: none;
-    border-radius: 8px;
     object-fit: contain;
   }
 

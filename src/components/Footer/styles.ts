@@ -50,6 +50,14 @@ export const Menu = styled.div`
         line-height: 2.5rem;
         color: ${props => props.theme.gray100};
         font-weight: 400;
+        transition: all 0.2s;
+        border: 1px solid transparent;
+        
+        :hover {
+            border-bottom: 1px solid ${props => props.theme.gray100};
+            border-radius: 0;
+            transform: matrix(4);
+        }
     }
 `
 

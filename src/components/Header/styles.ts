@@ -29,9 +29,14 @@ export const Menu = styled.nav`
         gap: 2.4rem;
     }
 
-    a:hover {
-        background: ${props => props.theme.blue400};
-        border-radius: 4px;
+    a {
+        transition: all 0.2s;
+        
+        :hover {
+            border-bottom: 1px solid ${props => props.theme.gray100};
+            border-radius: 0;
+            transform: matrix(4);
+        }
     }
 `
 

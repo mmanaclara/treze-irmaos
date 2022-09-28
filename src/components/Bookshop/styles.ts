@@ -24,9 +24,12 @@ export const BookshopContainer = styled.section`
             justify-content: space-between;
             align-items: center;
             border-block: 1px solid transparent;
+            transition: all 0.2s;
 
             :hover {
                 border-bottom: 1px solid ${props => props.theme.gray700};
+                border-radius: 0;
+                transform: matrix(4);
             }
         }
 
