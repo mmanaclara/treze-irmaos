@@ -47,6 +47,11 @@ export const TextContent = styled.div`
 
         text-decoration: none;
         font-weight: bold;
+        transition: all 0.1s;
+
+        :hover {
+            background-color: ${props => props.theme.blue700};
+        }
     }
 `
 

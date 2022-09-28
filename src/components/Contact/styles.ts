@@ -45,6 +45,13 @@ export const ContactInfo = styled.div`
         display: flex;
         align-items: center;
         gap: 6px;
+
+        box-shadow: 0 4px 4px rgba(0,0,0,0.35);
+        transition: all 0.1s;
+
+        :hover {
+            background-color: ${props => props.theme.blue700};
+        }
     }
 `
 

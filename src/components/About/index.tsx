@@ -22,7 +22,7 @@ export function About() {
                     A Sociedade Espírita Treze Irmãos foi idealizada pelo casal José da Penha Lima e Alzira de Azevedo Lima. Já nos meados dos anos 60, funcionava na informalidade nos fundos do quintal de sua residência. Diante da necessidade de levar estes trabalhos do bem a outras pessoas, foi que surgiu ideia de se regularizar uma instituição.
                 </span>
 
-                <a href="#">Saiba mais</a>
+                <a href="/about">Saiba mais</a>
             </TextContent>
 
             <SlideContainer>
