@@ -5,8 +5,6 @@ import { ImWhatsapp } from 'react-icons/im'
 
 import { AddressInfo, ContactContainer, ContactInfo, ImageContainer, SocialMedia, StreetInfo, Wrapper } from "./styles";
 
-import mapImg from '../../../public/map.png'
-
 export function Contact() {
     return (
         <ContactContainer id="contact">

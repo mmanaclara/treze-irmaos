@@ -23,25 +23,25 @@ export function HomeSection() {
 
         <BoxMeeting>
             <MeetingDate>
-                <strong>22</strong>
-                <span>set</span>
+                <strong>06</strong>
+                <span>out</span>
             </MeetingDate>
 
             <MeetingContent>
-                <h3>A Parábola do Festim das Bodas</h3>
-                <span>Tonny Souza</span>
+                <h3>O consolador Prometido</h3>
+                <span>Edmilson Azevedo</span>
             </MeetingContent>
         </BoxMeeting>
 
         <BoxMeeting>
             <MeetingDate style={{ background: '#2166A5', color: '#fff' }}>
-                <strong>29</strong>
-                <span>set</span>
+                <strong>13</strong>
+                <span>out</span>
             </MeetingDate>
 
             <MeetingContent>
-                <h3>Conhecimento de si mesmo</h3>
-                <span>Davi Reis</span>
+                <h3>O que é ser espírita?</h3>
+                <span>Sinval</span>
             </MeetingContent>
         </BoxMeeting>
       </NextMeetings>

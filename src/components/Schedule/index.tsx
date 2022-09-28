@@ -17,29 +17,29 @@ export function Schedule() {
                 <ScheduleBox>
                     <Image src={scheduleImg1} width={252} height={252} alt="" />
                     <p>Palestra pública</p>
-                    <strong>Pelos Caminhos da Evangelização</strong>
-                    <span>01/09/2022 às 19h30</span>
+                    <strong>O consolador Prometido</strong>
+                    <span>06/10/2022 às 19h30</span>
                 </ScheduleBox>
 
                 <ScheduleBox>
                     <Image src={scheduleImg2} width={252} height={252} alt="" />
                     <p>Palestra pública</p>
-                    <strong>Reflorescendo o Espiritismo em mim</strong>
-                    <span>01/09/2022 às 19h30</span>
+                    <strong>O que é ser espírita?</strong>
+                    <span>13/10/2022 às 19h30</span>
                 </ScheduleBox>
 
                 <ScheduleBox>
                     <Image src={scheduleImg3} width={252} height={252} alt="" />
                     <p>Palestra pública</p>
-                    <strong>Passe: um Convite para o Diálogo</strong>
-                    <span>01/09/2022 às 19h30</span>
+                    <strong>Ação e oração</strong>
+                    <span>20/10/2022 às 19h30</span>
                 </ScheduleBox>
 
                 <ScheduleBox>
                     <Image src={scheduleImg4} width={252} height={252} alt="" />
                     <p>Palestra pública</p>
-                    <strong>Resistência ao Mal</strong>
-                    <span>01/09/2022 às 19h30</span>
+                    <strong>Piedade filial</strong>
+                    <span>27/10/2022 às 19h30</span>
                 </ScheduleBox>
             </Wrapper>
         </ScheduleContainer>

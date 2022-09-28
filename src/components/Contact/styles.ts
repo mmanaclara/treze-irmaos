@@ -25,6 +25,11 @@ export const ContactInfo = styled.div`
         cursor: pointer;
         font-weight: 500;
         color: ${props => props.theme.gray700};
+
+        :hover span {
+            color: ${props => props.theme.blue600};
+            font-weight: 600;
+        }
     }
 
     a:nth-child(4) {

@@ -103,6 +103,10 @@ export const BookInfo = styled.div`
         font-weight: 600;
         color: ${props => props.theme.gray800};
         margin-bottom: 0.5rem;
+
+        :hover {
+            color: ${props => props.theme.blue600};
+        }
     }
 
     span {

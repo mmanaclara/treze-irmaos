@@ -3,7 +3,8 @@ import styled from 'styled-components'
 export const HomeContainer = styled.section`
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
+    overflow: hidden;
     padding-block: 4rem;
     color: ${props => props.theme.gray700};
 
