@@ -40,8 +40,8 @@ export function HomeSection() {
             </MeetingDate>
 
             <MeetingContent>
-                <h3>O que é ser espírita?</h3>
-                <span>Sinval</span>
+                <h3>O que é ser Espírita?</h3>
+                <span>Sinval Quirino</span>
             </MeetingContent>
         </BoxMeeting>
       </NextMeetings>

@@ -7,6 +7,7 @@ export default function Book1() {
     return (
       <div>
         <h1>Livro: {JSON.stringify(query)}</h1> 
+        <h1>Livro:</h1> 
       </div>
     )
   }
