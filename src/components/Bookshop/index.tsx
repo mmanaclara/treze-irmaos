@@ -9,6 +9,8 @@ import bookImg2 from '../../../public/book-2.png'
 import bookImg3 from '../../../public/book-3.png'
 import bookImg4 from '../../../public/book-4.png'
 
+import { Book } from "../Book"
+
 export function Bookshop() {
     return (
         <BookshopContainer id="books">
@@ -24,81 +26,33 @@ export function Bookshop() {
                 </header>
 
                 <Wrapper>
-                    <Link href="#">
-                        <BookBox>
-                            <Image src={bookImg1} width={151} height={217} alt="" />
-                            <BookInfo>
-                                <h5>Segue em harmonia</h5>
-                                <span>Divaldo Franco</span>
-                            </BookInfo>
+                    <Book 
+                        title="Segue em Harmonia" 
+                        author="Divaldo Franco" 
+                        coverImage={bookImg1} 
+                        price="40"
+                    />
 
-                            <BookDetail>
-                                <span>Capa comum</span>
-                                <PriceContainer>
-                                    <span>R$</span>
-                                    <strong>40</strong>
-                                    <span>00</span>
-                                </PriceContainer>
-                            </BookDetail>
-                        </BookBox>
-                    </Link>
+                    <Book 
+                        title="O Evangelho de João" 
+                        author="Haroldo Dutra Dias" 
+                        coverImage={bookImg2} 
+                        price="40"
+                    />
 
-                    <Link href="#">
-                        <BookBox>
-                            <Image src={bookImg2} width={151} height={217} alt="" />
-                            <BookInfo>
-                                <h5>O Evangelho de João</h5>
-                                <span>Haroldo Dutra Dias</span>
-                            </BookInfo>
+                    <Book 
+                        title="Paulo e Estevão" 
+                        author="Francisco Cândido Xavier" 
+                        coverImage={bookImg3} 
+                        price="37"
+                    />
 
-                            <BookDetail>
-                                <span>Capa comum</span>
-                                <PriceContainer>
-                                    <span>R$</span>
-                                    <strong>40</strong>
-                                    <span>00</span>
-                                </PriceContainer>
-                            </BookDetail>
-                        </BookBox>
-                    </Link>
-
-                    <Link href="#">
-                        <BookBox>
-                            <Image src={bookImg3} width={151} height={217} alt="" />
-                            <BookInfo>
-                                <h5>Paulo e Estevão</h5>
-                                <span>Francisco Cândido Xavier</span>
-                            </BookInfo>
-
-                            <BookDetail>
-                                <span>Capa comum</span>
-                                <PriceContainer>
-                                    <span>R$</span>
-                                    <strong>40</strong>
-                                    <span>00</span>
-                                </PriceContainer>
-                            </BookDetail>
-                        </BookBox>
-                    </Link>
-
-                    <Link href="#">
-                        <BookBox>
-                            <Image src={bookImg4} width={151} height={217} alt="" />
-                            <BookInfo>
-                                <h5>Pão Nosso</h5>
-                                <span>Francisco Cândido Xavier</span>
-                            </BookInfo>
-
-                            <BookDetail>
-                                <span>Capa comum</span>
-                                <PriceContainer>
-                                    <span>R$</span>
-                                    <strong>40</strong>
-                                    <span>00</span>
-                                </PriceContainer>
-                            </BookDetail>
-                        </BookBox>
-                    </Link>
+                    <Book 
+                        title="Pão Nosso" 
+                        author="Francisco Cândido Xavier" 
+                        coverImage={bookImg4} 
+                        price="32"
+                    />
                 </Wrapper>
             </div>
         </BookshopContainer>

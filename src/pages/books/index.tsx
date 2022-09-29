@@ -12,12 +12,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { 
-  BookBox, 
-  BookDetail, 
-  BookInfo, 
   BookshopContainer, 
-  DialogContainer, 
-  PriceContainer, 
   Wrapper 
 } from "../../styles/pages/books";
 
@@ -25,12 +20,9 @@ import bookImg1 from '../../../public/book-1.png'
 import bookImg2 from '../../../public/book-2.png'
 import bookImg3 from '../../../public/book-3.png'
 import bookImg4 from '../../../public/book-4.png'
-import { FaShoppingCart } from "react-icons/fa";
-import { ImWhatsapp } from "react-icons/im";
+import { Book } from "../../components/Book";
 
 export default function Bookshop() {
-  const dialog = useDialogState();
-
   return (
     <>
         <NextSeo
@@ -44,109 +36,35 @@ export default function Bookshop() {
           </header>
 
           <Wrapper>
-            <Link href="#">
-              <BookBox>
-                  <Image src={bookImg1} width={151} height={217} alt="" />
-                  <BookInfo>
-                    <h5>Segue em harmonia</h5>
-                    <span>Divaldo Franco</span>
-                  </BookInfo>
 
-                  <BookDetail>
-                      <span>Capa comum</span>
-                      <PriceContainer>
-                          <span>R$</span>
-                          <strong>40</strong>
-                          <span>00</span>
-                      </PriceContainer>
-                  </BookDetail>
-              <Button onClick={dialog.toggle}>
-                <FaShoppingCart />
-                Comprar
-              </Button>
-              <DialogContainer state={dialog}>
-                <button><DialogDismiss /></button>
-                <header>
-                  <DialogHeading>Olá! 👋</DialogHeading>
-                </header>
-                <p>
-                  <DialogDescription>
-                    Você pode comprar este livro entrando em contato com a gente pelo WhatsApp. A retirada é na nossa casa espírita, na rua Pastor Rodolfo Beuttenmullher, 314 - Jardim Cidade Universitária, João Pessoa. <br /><br />
-                    Muita paz! 🙏
-                  </DialogDescription>
-                </p>
+            <Book 
+              title="Segue em Harmonia" 
+              author="Divaldo Franco" 
+              coverImage={bookImg1} 
+              price="40"
+            />
 
-                <Link 
-                  href="https://wa.me/5583993820257"
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  <a>
-                    <ImWhatsapp />
-                    Fala com a gente!
-                  </a>
-                </Link>
-              </DialogContainer>
-              </BookBox>
-          </Link>
+            <Book 
+                title="O Evangelho de João" 
+                author="Haroldo Dutra Dias" 
+                coverImage={bookImg2} 
+                price="40"
+            />
 
-          <Link href="#">
-              <BookBox>
-                  <Image src={bookImg2} width={151} height={217} alt="" />
-                  <BookInfo>
-                      <h5>O Evangelho de João</h5>
-                      <span>Haroldo Dutra Dias</span>
-                  </BookInfo>
+            <Book 
+                title="Paulo e Estevão" 
+                author="Francisco Cândido Xavier" 
+                coverImage={bookImg3} 
+                price="37"
+            />
 
-                  <BookDetail>
-                      <span>Capa comum</span>
-                      <PriceContainer>
-                          <span>R$</span>
-                          <strong>40</strong>
-                          <span>00</span>
-                      </PriceContainer>
-                  </BookDetail>
-              </BookBox>
-          </Link>
-
-          <Link href="#">
-              <BookBox>
-                  <Image src={bookImg3} width={151} height={217} alt="" />
-                  <BookInfo>
-                      <h5>Paulo e Estevão</h5>
-                      <span>Francisco Cândido Xavier</span>
-                  </BookInfo>
-
-                  <BookDetail>
-                      <span>Capa comum</span>
-                      <PriceContainer>
-                          <span>R$</span>
-                          <strong>40</strong>
-                          <span>00</span>
-                      </PriceContainer>
-                  </BookDetail>
-              </BookBox>
-          </Link>
-
-          <Link href="#">
-              <BookBox>
-                  <Image src={bookImg4} width={151} height={217} alt="" />
-                  <BookInfo>
-                      <h5>Pão Nosso</h5>
-                      <span>Francisco Cândido Xavier</span>
-                  </BookInfo>
-
-                  <BookDetail>
-                      <span>Capa comum</span>
-                      <PriceContainer>
-                          <span>R$</span>
-                          <strong>40</strong>
-                          <span>00</span>
-                      </PriceContainer>
-                  </BookDetail>
-              </BookBox>
-          </Link>
-        </Wrapper>
+            <Book 
+                title="Pão Nosso" 
+                author="Francisco Cândido Xavier" 
+                coverImage={bookImg4} 
+                price="32"
+            />
+          </Wrapper>
       </BookshopContainer> 
     </>
   )

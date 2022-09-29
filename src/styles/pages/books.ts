@@ -1,13 +1,6 @@
 import styled from 'styled-components'
 
-import {
-    Button,
-    Dialog,
-    DialogDismiss,
-    DialogHeading,
-    DialogDescription,
-    useDialogState,
-  } from "ariakit";
+import { Dialog } from "ariakit";
 
 export const BookshopContainer = styled.main`
     margin-block: 3rem;
