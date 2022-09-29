@@ -139,8 +139,7 @@ export const PriceContainer = styled.div`
 `
 
 export const DialogContainer = styled(Dialog)`
-  max-width: calc(100% - 32px);
-  max-height: calc(100% - 32px);
+  max-height: fit-content;
   transform: translate(-50%, -50%);
   position: fixed;
   top: 50%;
@@ -148,7 +147,8 @@ export const DialogContainer = styled(Dialog)`
   z-index: 50;
 
   display: flex;
-  width: 100%;
+  width: fit-content;
+  max-width: 44rem;
   flex-direction: column;
   gap: 1rem;
   overflow: auto;
@@ -156,7 +156,50 @@ export const DialogContainer = styled(Dialog)`
   border-width: 1px;
   border-style: solid;
   background-color: #2166A5;
-  padding: 1rem;
+  padding: 2.5rem;
   color: #F7F9F9;
   filter: drop-shadow(0 16px 24px rgba(0, 0, 0, 15%));
+
+  text-align: center;
+
+  button {
+    cursor: pointer;
+    align-self: flex-end;
+    background: transparent;
+    color: ${props => props.theme.gray100};
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    transition: all 0.2s;
+    font-size: 2.4rem;
+
+    :hover {
+        background-color: ${props => props.theme.blue200};
+    }
+  }
+
+  header {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: -2rem;
+  }
+
+  p {
+    padding: 1rem 1rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+
+  a {
+    background-color: ${props => props.theme.gray100};
+    color: ${props => props.theme.blue600};
+    font-weight: 700;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
 `

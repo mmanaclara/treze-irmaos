@@ -1,23 +1,32 @@
 import {
   Button,
-  Dialog,
   DialogDismiss,
   DialogHeading,
   DialogDescription,
   useDialogState,
+  
 } from "ariakit";
 
 import { NextSeo } from "next-seo";
 import Image from "next/image";
 import Link from "next/link";
 
-import { BookBox, BookDetail, BookInfo, BookshopContainer, DialogContainer, PriceContainer, Wrapper } from "../../styles/pages/books";
+import { 
+  BookBox, 
+  BookDetail, 
+  BookInfo, 
+  BookshopContainer, 
+  DialogContainer, 
+  PriceContainer, 
+  Wrapper 
+} from "../../styles/pages/books";
 
 import bookImg1 from '../../../public/book-1.png'
 import bookImg2 from '../../../public/book-2.png'
 import bookImg3 from '../../../public/book-3.png'
 import bookImg4 from '../../../public/book-4.png'
 import { FaShoppingCart } from "react-icons/fa";
+import { ImWhatsapp } from "react-icons/im";
 
 export default function Bookshop() {
   const dialog = useDialogState();
@@ -56,11 +65,27 @@ export default function Bookshop() {
                 Comprar
               </Button>
               <DialogContainer state={dialog}>
-                <DialogHeading>Olá! 👋</DialogHeading>
-                <DialogDismiss />
-                <DialogDescription>
-                  Você pode comprar este livro entrando em contato com a gente pelo WhatsApp. A retirada é na nossa casa espírita, na rua Pastor Rodolfo Beuttenmullher, 314 - Jardim Cidade Universitária, João Pessoa. Muita paz! 🙏
-                </DialogDescription>
+                <button><DialogDismiss /></button>
+                <header>
+                  <DialogHeading>Olá! 👋</DialogHeading>
+                </header>
+                <p>
+                  <DialogDescription>
+                    Você pode comprar este livro entrando em contato com a gente pelo WhatsApp. A retirada é na nossa casa espírita, na rua Pastor Rodolfo Beuttenmullher, 314 - Jardim Cidade Universitária, João Pessoa. <br /><br />
+                    Muita paz! 🙏
+                  </DialogDescription>
+                </p>
+
+                <Link 
+                  href="https://wa.me/5583993820257"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <a>
+                    <ImWhatsapp />
+                    Fala com a gente!
+                  </a>
+                </Link>
               </DialogContainer>
               </BookBox>
           </Link>
