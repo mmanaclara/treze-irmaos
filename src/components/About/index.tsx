@@ -1,11 +1,9 @@
-// import { useKeenSlider } from 'keen-slider/react'
-
 import Image from "next/image";
 import aboutImg1 from '../../../public/about-1.png'
 
-import "keen-slider/keen-slider.min.css"
 import { AboutContainer, Wrapper, TextContent, SlideContainer, SlideWrapper } from "./styles";
-import React, { useState } from 'react';
+import Link from "next/link";
+import { FaShoppingCart } from "react-icons/fa";
 
 export function About() {
   return (
@@ -22,7 +20,9 @@ export function About() {
                     A Sociedade Espírita Treze Irmãos foi idealizada pelo casal José da Penha Lima e Alzira de Azevedo Lima. Já nos meados dos anos 60, funcionava na informalidade nos fundos do quintal de sua residência. Diante da necessidade de levar estes trabalhos do bem a outras pessoas, foi que surgiu ideia de se regularizar uma instituição.
                 </span>
 
-                <a href="/about">Saiba mais</a>
+                <Link href="/about">    
+                    <a>Saiba mais</a>
+                </Link>
             </TextContent>
 
             <SlideContainer>

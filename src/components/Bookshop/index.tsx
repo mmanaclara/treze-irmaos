@@ -15,7 +15,7 @@ export function Bookshop() {
             <div>
                 <header>
                     <h4>Livraria</h4>
-                    <Link href="#">
+                    <Link href="/books">
                         <a>
                             <span>Ir para a livraria</span> 
                             <BiRightArrowAlt size={22} />

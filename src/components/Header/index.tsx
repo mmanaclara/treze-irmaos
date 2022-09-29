@@ -37,7 +37,7 @@ export function Header() {
                 </Link>
             </li>
             <li>
-                <Link href="#books">
+                <Link href="/books">
                     <a>Livraria</a>
                 </Link>
             </li>

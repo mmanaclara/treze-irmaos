@@ -17,6 +17,7 @@ import img1 from '../../public/img1-aboutPage.png'
 import img2 from '../../public/img2-aboutPage.png'
 import img3 from '../../public/seti-place.png'
 import { BiLeftArrowAlt } from 'react-icons/bi';
+import { FaShoppingCart } from 'react-icons/fa';
 
 export default function AboutPage() {
     return (
