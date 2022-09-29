@@ -21,6 +21,10 @@ export const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     gap: 12rem;
+
+    a {
+        transform: translateY(-8%);
+    }
 `
 
 export const AddressContent = styled.div`
@@ -57,15 +61,23 @@ export const Menu = styled.div`
             border-bottom: 1px solid ${props => props.theme.gray100};
             border-radius: 0;
             transform: matrix(4);
+            transform: translateY(-8%);
+
         }
     }
 `
 
 export const SocialMedia = styled.div`
     display: flex;
-    gap: 3.2rem;
+    gap: 2.4rem;
 
     a {
         color: ${props => props.theme.gray100};
+        padding: 0.6rem;
+
+        :hover {
+            background: ${props => props.theme.blue400};
+            border-radius: 4px;
+        }
     }
 `

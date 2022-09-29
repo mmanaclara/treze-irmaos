@@ -17,7 +17,6 @@ import img1 from '../../public/img1-aboutPage.png'
 import img2 from '../../public/img2-aboutPage.png'
 import img3 from '../../public/seti-place.png'
 import { BiLeftArrowAlt } from 'react-icons/bi';
-import { FaShoppingCart } from 'react-icons/fa';
 
 export default function AboutPage() {
     return (
@@ -38,7 +37,7 @@ export default function AboutPage() {
                         <h3>O início</h3>
                         <p>
                             A Sociedade Espírita Treze Irmãos, SETI, foi idealizada pelo casal José da Penha Lima e Alzira de Azevedo Lima. Em meados dos anos 60, funcionava na informalidade nos fundos do quintal de sua residência, no bairro Treze de Maio, em João Pessoa/PB. <br />
-                            Diante da necessidade de levar esse trabalho do bem a outras pessoas, foi que surgiu ideia de se regularizar uma instituição. <br />
+                            Diante da necessidade de levar esse trabalho do bem a outras pessoas, surgiu ideia de se regularizar uma instituição. <br />
                             No dia <strong>07 de março de 1992</strong>, foi constituída a Sociedade Espírita Treze Irmãos, sob a presidência de Alzira de Azevedo Lima.
                         </p>
                     </TextContent>
@@ -69,8 +68,9 @@ export default function AboutPage() {
                     <TextContainer>
                         <h3>Fases da SETI</h3>
                         <p>
-                            A Sociedade Espírita Treze Irmãos foi idealizada pelo casal José da Penha Lima e Alzira de Azevedo Lima. Em meados dos anos 60, funcionava na informalidade nos fundos do quintal de sua residência, no bairro Treze de Maio, em João Pessoa/PB. Diante da necessidade de levar esse trabalho do bem a outras pessoas, foi que surgiu ideia de se regularizar uma instituição. <br />
-                            No dia <strong>07 de março de 1992</strong>, foi constituída a Sociedade Espírita Treze Irmãos, sob a presidência de Alzira de Azevedo Lima.
+                            A Sociedade Espírita Treze Irmãos teve seus primeiros passos trabalhando apenas no mediunismo, reunindo-se sem compromisso formal. 
+                            Num segundo momento, o grupo passou a se reunir regulamente, adotando uma mistura de Kardecismo com Umbandismo. <br />
+                            Neste ano, 2022, completamos 20 anos da oficialização da nossa sociedade, e ao mesmo tempo de nossos trabalhos de acordo com a codificação Kardecista. 
                         </p>
                     </TextContainer>
                 </Container>

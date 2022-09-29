@@ -48,6 +48,7 @@ export const SocialMediaMenu = styled.div`
     a {
         display: flex;
         align-items: center;
+        transition: all 0.2s;
 
         :hover {
             background: ${props => props.theme.blue400};

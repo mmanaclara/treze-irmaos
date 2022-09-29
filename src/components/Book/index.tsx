@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { BuyButton } from "../BuyButton";
 import { BookContainer, BookDetail, BookInfo, PriceContainer } from "./styles";
 
 interface BookProps {
@@ -12,7 +11,7 @@ interface BookProps {
 
 export function Book({ title, author, coverImage, price }: BookProps) {
     return (
-        <Link href="#">
+        <Link href="/books">
             <BookContainer>
                 <Image src={coverImage} width={151} height={217} alt="" />
                 <BookInfo>
@@ -28,9 +27,6 @@ export function Book({ title, author, coverImage, price }: BookProps) {
                         <span>00</span>
                     </PriceContainer>
                 </BookDetail>
-
-                <BuyButton />
-
             </BookContainer>
         </Link>
     )

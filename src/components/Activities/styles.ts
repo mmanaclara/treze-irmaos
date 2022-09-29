@@ -47,6 +47,11 @@ export const BoxContainer = styled.div`
         text-transform: uppercase;
         line-height: 2.8rem;
     }
+
+    :hover {
+        transform: translateY(-1%);
+        box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.25);
+    }
 `
 
 export const ActivityInfo = styled.div`

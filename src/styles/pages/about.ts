@@ -39,6 +39,14 @@ export const Container = styled.div`
     justify-content: space-between;
     gap: 3rem;
     margin-block: 1.5rem;
+
+    img {
+        opacity: 0.92;
+
+        :hover {
+            opacity: 1;
+        }
+    }
 `
 
 export const TextContent = styled.div`
@@ -54,6 +62,14 @@ export const TextWithoutImage = styled.div``
 
 export const ImageContainer = styled.div`
     margin-block: 2rem;
+    img {
+        opacity: 0.85;
+        transition: all 0.2s;
+
+        :hover {
+            opacity: 1;
+        }
+    }
 `
 
 export const BackToHomeButton = styled.a`

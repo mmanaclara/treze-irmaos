@@ -22,6 +22,7 @@ export const BuyButtonContainer = styled.div`
 
     :hover {
         background-color: ${props => props.theme.blue700};
+        transform: translateY(-8%);
     }
   }
 `

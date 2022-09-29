@@ -13,6 +13,7 @@ import { ImWhatsapp } from "react-icons/im"
   import { BuyButtonContainer, DialogContainer } from "./styles"
 
 export function BuyButton() {
+
     const dialog = useDialogState();
     
     return (
@@ -29,7 +30,7 @@ export function BuyButton() {
                 </header>
                 <p>
                     <DialogDescription>
-                    Você pode comprar este livro entrando em contato com a gente pelo WhatsApp. A retirada é na nossa casa espírita, na rua Pastor Rodolfo Beuttenmullher, 314 - Jardim Cidade Universitária, João Pessoa. <br /><br />
+                    Você pode adquirir este livro entrando em contato com a gente pelo WhatsApp. A retirada é na nossa casa espírita, na rua Pastor Rodolfo Beuttenmullher, 314 - Jardim Cidade Universitária, João Pessoa. <br /><br />
                     Muita paz! 🙏
                     </DialogDescription>
                 </p>

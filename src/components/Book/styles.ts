@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const BookContainer = styled.a`
-display: flex;
+    display: flex;
     flex-direction: column;
     flex: 1;
     cursor: pointer;
@@ -37,6 +37,10 @@ display: flex;
         font-family: Roboto, sans-serif;
         color: ${props => props.theme.gray300};
         font-size: 1.4rem;
+    }
+
+    :hover {
+        transform: translateY(1%);
     }
 `
 

@@ -13,9 +13,11 @@ export function Footer () {
     return (
         <FooterContainer>
             <Wrapper>
-                <div>
-                    <Image src={logoImg} width={82} height={28} alt="" />
-                </div>
+                <Link href="/">
+                    <a>
+                        <Image src={logoImg} width={82} height={28} alt="" />
+                    </a>
+                </Link>
 
                 <AddressContent>
                     <strong>© 2022 - Sociedade Espírita Treze Irmãos</strong>
@@ -26,52 +28,53 @@ export function Footer () {
 
                 <Menu>
                     <div>
-                        <Link href="#home">
+                        <Link href="/">
                             <a>Início</a>
                         </Link>
-                        <Link href="#about">
+                        <Link href="/#about">
                             <a>Sobre</a>
                         </Link>
-                        <Link href="#activities">
+                        <Link href="/#activities">
                             <a>Atividades</a>
                         </Link>
                     </div>
 
                     <div>
-                        <Link href="#schedule">
+                        <Link href="/#schedule">
                             <a>Programação</a>
                         </Link>
-                        <Link href="#books">
+                        <Link href="/#books">
                             <a>Livraria</a>
                         </Link>
-                        <Link href="#contact">
+                        <Link href="/#contact">
                             <a>Contato</a>
                         </Link>
                     </div>
                 </Menu>
 
                 <SocialMedia>
-                    <a 
+                    <Link
                         href="https://www.instagram.com/cetrezeirmaos/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <FiInstagram size={24} />
-                    </a>
-                    <a 
+                        <a><FiInstagram size={24} /></a>
+                    </Link>
+
+                    <Link
                         href="https://www.facebook.com/Centro-Espirita-TREZE-Irm%C3%A3os-898350110344824"
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <FiFacebook size={24} />
-                    </a>
-                    <a 
+                        <a><FiFacebook size={24} /></a>
+                    </Link>
+                    <Link
                         href="https://wa.me/5583993820257" 
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <ImWhatsapp size={24} />
-                    </a>
+                        <a><ImWhatsapp size={24} /></a>
+                    </Link>
                 </SocialMedia>
             </Wrapper>
         </FooterContainer>

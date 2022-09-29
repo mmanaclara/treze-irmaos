@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from 'next/link'
 import { BiRightArrowAlt } from "react-icons/bi"
 
-import { BookBox, BookDetail, BookInfo, BookshopContainer, PriceContainer, Wrapper } from "./styles"
+import { BookshopContainer, Wrapper } from "./styles"
 
 import bookImg1 from '../../../public/book-1.png'
 import bookImg2 from '../../../public/book-2.png'

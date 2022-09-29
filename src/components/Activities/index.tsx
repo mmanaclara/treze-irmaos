@@ -16,8 +16,8 @@ export function Activities() {
                     <FaHeart size={65} />
                     
                     <ActivityInfo>
-                        <strong>Toda quinta-feira</strong>
-                        <span>Às 18h30</span>
+                        <strong>Agende conosco</strong>
+                        <span>Às 18:30</span>
                     </ActivityInfo>
                 </BoxContainer>
 
@@ -29,7 +29,7 @@ export function Activities() {
                     <FaMicrophoneAlt size={65} />
                     <ActivityInfo>
                         <strong>Toda quinta-feira</strong>
-                        <span>Às 19h30</span>
+                        <span>Às 19:30</span>
                     </ActivityInfo>
                 </BoxContainer>
 
@@ -41,7 +41,7 @@ export function Activities() {
                     <FaBookOpen size={70} />
                     <ActivityInfo>
                         <strong>Todo sábado</strong>
-                        <span>Às 15h</span>
+                        <span>Às 15:00</span>
                     </ActivityInfo>
                 </BoxContainer>
             </Wrapper>

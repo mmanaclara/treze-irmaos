@@ -51,6 +51,7 @@ export const TextContent = styled.div`
 
         :hover {
             background-color: ${props => props.theme.blue700};
+            transform: translateY(-8%);
         }
     }
 `
@@ -60,6 +61,12 @@ export const SlideContainer = styled.div`
 `
 
 export const SlideWrapper = styled.div`
+    img {
+        opacity: 0.92;
 
+        :hover {
+            opacity: 1;
+        }
+    }
 `
 

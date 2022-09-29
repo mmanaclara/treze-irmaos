@@ -10,9 +10,11 @@ import { ImWhatsapp } from 'react-icons/im'
 export function Header() {
   return (
     <HeaderContainer>
-        <a href="#">
-            <Image src={logoImg} alt="" />
-        </a>
+        <Link href="/">
+            <a>
+                <Image src={logoImg} alt="" />
+            </a>
+        </Link>
 
       <Menu>
         <ul>
@@ -22,17 +24,17 @@ export function Header() {
                 </Link>
             </li>
             <li>
-                <Link href="#about">
+                <Link href="/about">
                     <a>Sobre</a>
                 </Link>
             </li>
             <li>
-                <Link href="#activities">
+                <Link href="/#activities">
                     <a>Atividades</a>
                 </Link>
             </li>
             <li>
-                <Link href="#schedule">
+                <Link href="/#schedule">
                     <a>Programação</a>
                 </Link>
             </li>
@@ -42,7 +44,7 @@ export function Header() {
                 </Link>
             </li>
             <li>
-                <Link href="#contact">
+                <Link href="/#contact">
                     <a>Contato</a>
                 </Link>
             </li>
