@@ -1,6 +1,6 @@
 import { NextSeo } from 'next-seo';
 
-import { BlogContainer, Wrapper } from "./styles";
+import { BlogContainer, Wrapper } from "../../styles/pages/blog";
 
 export default function Blog() {
     return (
