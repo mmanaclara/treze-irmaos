@@ -1,13 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { NextSeo } from 'next-seo';
 
 import { FiInstagram, FiFacebook } from 'react-icons/fi'
 import { ImWhatsapp } from 'react-icons/im'
 
 import { AddressContent, FooterContainer, Menu, SocialMedia, Wrapper } from "./styles";
 
-import logoImg from '../../assets/logo.svg'
+import logoImg from '../../../public/logo.svg'
 
 export function Footer () {
     return (

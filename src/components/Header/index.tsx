@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { HeaderContainer, Menu, SocialMediaMenu } from './styles'
 
 import Image from 'next/image'
-import logoImg from '../../assets/logo.svg'
+import logoImg from '../../../public/logo.svg'
 
 import { FiInstagram, FiFacebook } from 'react-icons/fi'
 import { HiMenu } from "react-icons/hi";

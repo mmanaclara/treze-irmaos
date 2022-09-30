@@ -3,7 +3,6 @@ import aboutImg1 from '../../../public/about-1.png'
 
 import { AboutContainer, Wrapper, TextContent, SlideContainer, SlideWrapper } from "./styles";
 import Link from "next/link";
-import { FaShoppingCart } from "react-icons/fa";
 
 export function About() {
   return (

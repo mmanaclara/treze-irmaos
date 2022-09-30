@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import { FiMapPin, FiInstagram, FiFacebook } from 'react-icons/fi'
 import { ImWhatsapp } from 'react-icons/im'
 

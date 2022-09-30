@@ -1,8 +1,8 @@
 import { BoxMeeting, HomeContainer, LogoContainer, MeetingContent, MeetingDate, NextMeetings, Welcome, Wrapper } from "./styles"
 
 import Image from "next/image"
-import backgroundImg from '../../assets/field-bg.png'
-import logoSeti from '../../assets/logo-seti.png'
+import backgroundImg from '../../../public/field-bg.png'
+import logoSeti from '../../../public/logo-seti.png'
 
 export function HomeSection() {
   return (
