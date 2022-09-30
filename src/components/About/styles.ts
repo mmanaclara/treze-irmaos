@@ -1,21 +1,29 @@
 import styled from 'styled-components'
 
 export const AboutContainer = styled.section`
-    display: flex;
-    flex-direction: column;
     margin-block: 3rem;
     margin-inline: auto;
 
     margin-top: 1.5rem;
-    width: min(118rem, 100%);
+    max-width: min(118rem, 100%);
     padding-inline: 2.5rem;
-
 `
 
 export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 1.5rem;
+
+    @media (max-width: 720px) {
+      width: 100%;
+      font-size: 87.5%;
+      flex-direction: column-reverse;
+      gap: 1rem;
+
+      img {
+        width: 100%;
+      }
+    }
 `
 
 export const TextContent = styled.div`
@@ -54,15 +62,24 @@ export const TextContent = styled.div`
             transform: translateY(-8%);
         }
     }
+
+    @media (max-width: 720px) {
+      width: 100%;
+    }
 `
 
 export const SlideContainer = styled.div`
-
+    @media (max-width: 720px) {
+        max-width: 720px;
+        width: 100%;
+    }
 `
 
 export const SlideWrapper = styled.div`
     img {
         opacity: 0.92;
+        max-width: 558px;
+        max-height: 291px;
 
         :hover {
             opacity: 1;

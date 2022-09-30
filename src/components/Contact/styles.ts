@@ -12,8 +12,11 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1.5rem;
     flex-wrap: wrap;
+
+    @media (max-width: 1080px) {
+      margin-top: 2rem;
+    }
 `
 
 export const ContactInfo = styled.div`
@@ -79,4 +82,11 @@ export const SocialMedia = styled.a`
     }
 `
 
-export const ImageContainer = styled.div``
+export const ImageContainer = styled.div`
+    @media (max-width: 1080px) {
+      iframe {
+        max-width: min-content;
+        margin-top: 1rem;
+      }
+    }
+`

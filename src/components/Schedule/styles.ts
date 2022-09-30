@@ -14,5 +14,11 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    @media (max-width: 720px) {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
 `
 

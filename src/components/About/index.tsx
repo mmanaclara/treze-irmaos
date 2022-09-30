@@ -27,15 +27,13 @@ export function About() {
 
             <SlideContainer>
                 <SlideWrapper>
-                    <div>
                         <Image 
                             src={aboutImg1} 
                             style={{ objectFit: 'cover'}} 
-                            width={558} 
-                            height={291} 
+                            width={720} 
+                            height={375} 
                             alt="" 
                         />
-                    </div>
                 </SlideWrapper>
             </SlideContainer>
         </Wrapper>

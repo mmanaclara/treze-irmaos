@@ -25,6 +25,11 @@ export const Wrapper = styled.div`
     a {
         transform: translateY(-8%);
     }
+
+    @media (max-width: 1080px) {
+      flex-direction: column;
+      gap: 2rem;
+    }
 `
 
 export const AddressContent = styled.div`

@@ -40,4 +40,8 @@ export const ScheduleBox = styled.div`
     :hover {
         transform: translateY(1%);
     }
+
+    @media (max-width: 720px) {
+        max-width: fit-content;
+    }
 `

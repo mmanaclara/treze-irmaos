@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import scheduleImg1 from '../../../public/schedule-1.png'
 import scheduleImg2 from '../../../public/schedule-2.png'
 import scheduleImg3 from '../../../public/schedule-3.png'

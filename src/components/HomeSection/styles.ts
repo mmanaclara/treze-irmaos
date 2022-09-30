@@ -3,16 +3,35 @@ import styled from 'styled-components'
 export const HomeContainer = styled.section`
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     overflow: hidden;
     padding-block: 4rem;
     color: ${props => props.theme.gray700};
 
-    display: flex;
-    justify-content: center;
-    gap: 10rem;
-    align-items: center;
     background-position: center -5rem;
+
+    @media (max-width: 1080px) {
+        padding-block: 4rem 2rem;
+    }
+`
+
+export const Wrapper = styled.section`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: min(128rem, 100%);
+    margin-inline: auto;
+
+    @media (max-width: 1080px) {
+      flex-direction: column;
+      padding-inline: 2.5rem;
+      gap: 2rem;
+    }
+`
+
+export const LogoContainer = styled.div`
+    @media (max-width: 1080px) {
+        max-width: 10rem;
+    }
 `
 
 export const Welcome = styled.div`
@@ -73,6 +92,10 @@ export const NextMeetings = styled.div`
     display: flex;
     flex-direction: column;
     gap: 3rem;
+
+    @media (max-width: 1080px) {
+        display: none;
+    }
 `
 
 export const BoxMeeting = styled.div`

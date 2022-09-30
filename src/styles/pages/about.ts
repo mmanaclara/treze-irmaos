@@ -47,15 +47,27 @@ export const Container = styled.div`
             opacity: 1;
         }
     }
+
+    @media (max-width: 720px) {
+        flex-direction: column;
+    }
 `
 
 export const TextContent = styled.div`
     width: 44%;
+
+    @media (max-width: 720px) {
+        width: fit-content;
+    }
 `
 
 export const TextContainer = styled.div`
     width: 44%;
     align-self: center;
+
+    @media (max-width: 720px) {
+        width: fit-content;
+    }
 `
 
 export const TextWithoutImage = styled.div``

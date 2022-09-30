@@ -14,6 +14,10 @@ export const Wrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
+
+    @media (max-width: 720px) {
+        grid-template-columns: 1fr;
+    }
 `
 
 export const BoxContainer = styled.div`
@@ -52,6 +56,12 @@ export const BoxContainer = styled.div`
         transform: translateY(-1%);
         box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.25);
     }
+
+    @media (max-width: 720px) {
+        h2 {
+            font-size: 2rem;
+        }
+    }
 `
 
 export const ActivityInfo = styled.div`
@@ -76,5 +86,15 @@ export const ActivityInfo = styled.div`
         font-weight: 400;
         font-size: 2rem;
         font-family: Roboto, sans-serif;
+    }
+
+    @media (max-width: 720px) {
+        strong {
+            font-size: 2rem;
+        }
+
+        span {
+            font-size: 1.8rem;
+        }
     }
 `

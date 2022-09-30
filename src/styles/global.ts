@@ -17,13 +17,25 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   html {
+    width: 100%;
+    height: 100%;
     scroll-behavior: smooth;
+
+    @media (max-width: 1080px) {
+      font-size: 93.75%;
+    }
+
+    @media (max-width: 720px) {
+      font-size: 87.5%;
+    }
   }
 
   body {
     background-color: ${(props) => props.theme.white};
     color: ${(props) => props.theme.gray700};
     -webkit-font-smoothing: antialiased;
+    width: 100%;
+    height: 100%;
   }
   
   body, input, textarea, button {

@@ -7,7 +7,6 @@ export const BookContainer = styled.a`
     cursor: pointer;
 
     img {
-        max-width: 15.1rem;
         height: 21.7rem;
         max-height: 21.7rem;
         object-fit: contain;

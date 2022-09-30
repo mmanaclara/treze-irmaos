@@ -13,7 +13,7 @@ interface SeminarFlyerProps {
 export function SeminarFlyer({ image, tag, title, date, time }: SeminarFlyerProps) {
     return (
         <ScheduleBox>
-            <Image src={image} width={252} height={252} alt="" />
+            <Image src={image} width={720} height={720} alt="" />
             <p>{tag}</p>
             <strong>{title}</strong>
             <span>{date} às {time}</span>

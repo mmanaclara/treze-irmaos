@@ -16,8 +16,8 @@ export function Activities() {
                     <FaHeart size={65} />
                     
                     <ActivityInfo>
-                        <strong>Agende conosco</strong>
-                        <span>Às 18:30</span>
+                        <strong>Toda quinta-feira</strong>
+                        <span>Às 19:00</span>
                     </ActivityInfo>
                 </BoxContainer>
 
