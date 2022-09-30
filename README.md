@@ -33,3 +33,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 No projeto, utilizei: 
 * `Typescript` para adicionar tipagem estática ao JavaScript;
 * `styled-components` para estilização;
+* `React Icons` para adicionar ícones;
+* `Ariakit` para configurar um modal com acessibilidade;
