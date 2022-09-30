@@ -17,37 +17,37 @@ export function MenuMobile({ menuIsVisible, onClick }: MenuMobileProps) {
                 <ul>
                     <li>
                         <Link href="/">
-                            <a>Início</a>
+                            <a onClick={onClick}>Início</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/about">
-                            <a>Sobre</a>
+                            <a onClick={onClick}>Sobre</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/#activities">
-                            <a>Atividades</a>
+                            <a onClick={onClick}>Atividades</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/#schedule">
-                            <a>Programação</a>
+                            <a onClick={onClick}>Programação</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/books">
-                            <a>Livraria</a>
+                            <a onClick={onClick}>Livraria</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/#contact">
-                            <a>Contato</a>
+                            <a onClick={onClick}>Contato</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/blog">
-                            <a>Blog</a>
+                            <a onClick={onClick}>Blog</a>
                         </Link>
                     </li>
                     

@@ -21,6 +21,10 @@ export const HeaderContainer = styled.header`
         padding: 0.6rem;
     }
 
+    svg {
+        cursor: pointer;
+    }
+
     @media (max-width: 1080px) {
       justify-content: space-between;
       padding-inline: 2.5rem;
