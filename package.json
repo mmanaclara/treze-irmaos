@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@radix-ui/react-dialog": "^1.0.0",
     "ariakit": "^2.0.0-next.41",
     "next": "12.3.0",
     "next-seo": "^5.5.0",
@@ -25,7 +24,6 @@
     "@types/styled-components": "^5.1.26",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
-    "slice-machine-ui": "^0.4.2",
     "typescript": "4.8.3"
   }
 }
