@@ -21,8 +21,13 @@ export const HeaderContainer = styled.header`
         padding: 0.6rem;
     }
 
-    svg {
+    > svg {
         cursor: pointer;
+        display: none;
+
+        @media (max-width: 1080px) {
+            display: block;
+        }
     }
 
     @media (max-width: 1080px) {

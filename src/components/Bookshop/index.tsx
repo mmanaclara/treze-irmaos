@@ -4,10 +4,10 @@ import { BiRightArrowAlt } from "react-icons/bi"
 
 import { BookshopContainer, Wrapper } from "./styles"
 
-import bookImg1 from '../../../public/book-1.png'
-import bookImg2 from '../../../public/book-2.png'
-import bookImg3 from '../../../public/book-3.png'
-import bookImg4 from '../../../public/book-4.png'
+import bookImg1 from '../../../public/book-1.jpg'
+import bookImg2 from '../../../public/book-2.jpg'
+import bookImg3 from '../../../public/book-10.jpg'
+import bookImg4 from '../../../public/book-14.jpg'
 
 import { Book } from "../Book"
 
@@ -27,31 +27,31 @@ export function Bookshop() {
 
                 <Wrapper>
                     <Book 
-                        title="Segue em Harmonia" 
-                        author="Divaldo Franco" 
+                        title="O Evangelho Segundo o Espiritismo" 
+                        author="Allan Kardec" 
                         coverImage={bookImg1} 
-                        price="40"
+                        price="0"
                     />
 
                     <Book 
-                        title="O Evangelho de João" 
-                        author="Haroldo Dutra Dias" 
+                        title="Mariana" 
+                        author="Edmilson Azevedo Lima" 
                         coverImage={bookImg2} 
-                        price="40"
+                        price="18"
                     />
 
                     <Book 
-                        title="Paulo e Estevão" 
+                        title="Evolução em dois Mundos" 
                         author="Francisco Cândido Xavier" 
                         coverImage={bookImg3} 
-                        price="37"
+                        price="42"
                     />
 
                     <Book 
-                        title="Pão Nosso" 
-                        author="Francisco Cândido Xavier" 
+                        title="A Gênese" 
+                        author="Allan Kardec" 
                         coverImage={bookImg4} 
-                        price="32"
+                        price="19"
                     />
                 </Wrapper>
             </div>

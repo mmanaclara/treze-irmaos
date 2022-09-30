@@ -11,17 +11,17 @@ export const BookshopContainer = styled.main`
 export const Wrapper = styled.div`
     margin-top: 1.5rem;
 
-    display: flex;
-    justify-content: space-between;
-    gap: 1.5rem;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 
     @media (max-width: 720px) {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         gap: 3rem;
     }
 `
 export const BookWithButton = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
 `

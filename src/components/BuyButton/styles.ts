@@ -94,4 +94,9 @@ export const DialogContainer = styled(Dialog)`
     align-items: center;
     gap: 1rem;
   }
+
+  @media (max-width: 720px) {
+    width: 90%;
+    padding-bottom: 5rem;
+    }
 `
