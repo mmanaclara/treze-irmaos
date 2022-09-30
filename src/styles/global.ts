@@ -59,4 +59,8 @@ export const GlobalStyle = createGlobalStyle`
     background: ${props => props.theme.blue600};
     color: ${props => props.theme.gray100};
   }
+
+  ul {
+    list-style: none;
+  }
 `

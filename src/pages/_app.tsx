@@ -8,11 +8,15 @@ import { GlobalStyle } from '../styles/global'
 import { Container } from '../styles/pages/app'
 import { defaultTheme } from '../styles/themes/default'
 
+import { useState } from 'react'
+
 function MyApp({ Component, pageProps }: AppProps) {
+  const [menuIsVisible, setMenuIsVisible] = useState(false);
+
   return (
     <Container>
       <ThemeProvider theme={defaultTheme}>
-        <Header />
+        <Header onClick={()=> setMenuIsVisible(!menuIsVisible)} menuIsVisible={menuIsVisible} />
         
         <Component {...pageProps} />
 

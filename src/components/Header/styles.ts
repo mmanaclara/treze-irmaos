@@ -2,11 +2,11 @@ import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
     width: 100%;
-    /* max-width: 1180px; */
     margin-inline: auto;
     padding-block: 1.6rem;
     background: ${props => props.theme.blue600};
     color: ${props => props.theme.gray100};
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,6 +19,11 @@ export const HeaderContainer = styled.header`
         font-weight: 600;
         font-size: 1.8rem;
         padding: 0.6rem;
+    }
+
+    @media (max-width: 1080px) {
+      justify-content: space-between;
+      padding-inline: 2.5rem;
     }
 `
 
@@ -38,11 +43,15 @@ export const Menu = styled.nav`
             transform: matrix(4);
         }
     }
+
+    @media (max-width: 1080px) {
+      display: none;
+    }
 `
 
 export const SocialMediaMenu = styled.div`
     display: flex;
-    gap: 3.2rem;
+    gap: 1rem;
     align-items: center;
 
     a {
@@ -54,5 +63,9 @@ export const SocialMediaMenu = styled.div`
             background: ${props => props.theme.blue400};
             border-radius: 4px;
         }
+    }
+
+    @media (max-width: 1080px) {
+      display: none;
     }
 `
