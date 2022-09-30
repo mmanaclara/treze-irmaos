@@ -61,10 +61,10 @@ export default function Bookshop() {
 
             <BookWithButton>
               <Book 
-                  title="Evolução em dois Mundos" 
-                  author="Francisco Cândido Xavier" 
+                  title="A verdade de cada um" 
+                  author="Zíbia Gasparetto" 
                   coverImage={bookImg3} 
-                  price="42"
+                  price="24"
               />
               <BuyButton />
             </BookWithButton>
@@ -101,7 +101,7 @@ export default function Bookshop() {
 
             <BookWithButton>
               <Book 
-                  title="Um amor de verdade" 
+                  title="Um Amor de Verdade" 
                   author="Zíbia Gasparetto" 
                   coverImage={bookImg7} 
                   price="25"
@@ -111,7 +111,7 @@ export default function Bookshop() {
 
             <BookWithButton>
               <Book 
-                  title="Ela Só Queria Casar" 
+                  title="Ela só Queria Casar" 
                   author="Marcelo Cezar" 
                   coverImage={bookImg8} 
                   price="22"
@@ -131,10 +131,10 @@ export default function Bookshop() {
 
             <BookWithButton>
               <Book 
-                  title="Evolução em dois mundos" 
+                  title="Evolução em dois Mundos" 
                   author="Francisco Cândido Xavier" 
                   coverImage={bookImg10} 
-                  price="40"
+                  price="42"
               />
               <BuyButton />
             </BookWithButton>
@@ -151,7 +151,7 @@ export default function Bookshop() {
 
             <BookWithButton>
               <Book 
-                  title="Se abrindo pra vida" 
+                  title="Se Abrindo pra Vida" 
                   author="Zíbia Gasparetto" 
                   coverImage={bookImg12} 
                   price="18"
@@ -161,7 +161,7 @@ export default function Bookshop() {
 
             <BookWithButton>
               <Book 
-                  title="Não Olhe Para Trás" 
+                  title="Não Olhe para Trás" 
                   author="Elisa Masselli" 
                   coverImage={bookImg13} 
                   price="25"
