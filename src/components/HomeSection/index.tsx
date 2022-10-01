@@ -31,7 +31,7 @@ export function HomeSection() {
               </MeetingDate>
 
               <MeetingContent>
-                  <h3>O consolador Prometido</h3>
+                  <h3>O Consolador Prometido</h3>
                   <span>Edmilson Azevedo</span>
               </MeetingContent>
           </BoxMeeting>
