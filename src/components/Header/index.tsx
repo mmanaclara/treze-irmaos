@@ -15,6 +15,37 @@ interface VisibilityProps {
 }
 
 export function Header({ onClick, menuIsVisible }: VisibilityProps) {
+    const menuData = [
+        {
+            name: 'Início',
+            path: '/' 
+        },
+        {
+            name: 'Sobre',
+            path: '/about' 
+        },
+        {
+            name: 'Atividades',
+            path: '/#activities' 
+        },
+        {
+            name: 'Programação',
+            path: '/#schedule' 
+        },
+        {
+            name: 'Livraria',
+            path: '/books' 
+        },
+        {
+            name: 'Contato',
+            path: '/#contact' 
+        },
+        {
+            name: 'Blog',
+            path: '/blog' 
+        },
+    ]
+
   return (
     <HeaderContainer>
         <Link href="/">
@@ -30,42 +61,13 @@ export function Header({ onClick, menuIsVisible }: VisibilityProps) {
 
         <Menu>
             <ul>
-                <li>
-                    <Link href="/">
-                        <a>Início</a>
+            {menuData.map(data => (
+                <li key={data.name}>
+                    <Link href={data.path}>
+                        <a>{data.name}</a>
                     </Link>
                 </li>
-                <li>
-                    <Link href="/about">
-                        <a>Sobre</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/#activities">
-                        <a>Atividades</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/#schedule">
-                        <a>Programação</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/books">
-                        <a>Livraria</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/#contact">
-                        <a>Contato</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/blog">
-                        <a>Blog</a>
-                    </Link>
-                </li>
-                
+            ))}
             </ul>
         </Menu>
 
