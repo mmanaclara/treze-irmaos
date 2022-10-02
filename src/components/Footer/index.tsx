@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { FiInstagram, FiFacebook } from 'react-icons/fi'
 import { ImWhatsapp } from 'react-icons/im'
 
-import { AddressContent, FooterContainer, Menu, SocialMedia, Wrapper } from "./styles";
+import { AddressContent, Dev, FooterContainer, Menu, SocialMedia, Wrapper } from "./styles";
 
 import logoImg from '../../../public/logo.svg'
 
@@ -76,6 +76,17 @@ export function Footer () {
                     </Link>
                 </SocialMedia>
             </Wrapper>
+
+            <Dev>
+                Desenvolvido com 💙 por 
+                <Link 
+                    href="https://github.com/mmanaclara" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    <a>Clara Moreira</a> 
+                </Link>
+            </Dev>
         </FooterContainer>
     )
 }

@@ -9,13 +9,13 @@ export const FooterContainer = styled.footer`
 
     margin-top: 1.5rem;
     width: 100%;
-    padding-inline: 2.5rem;
     margin-inline: auto;
 `
 
 export const Wrapper = styled.div`
     padding-block: 3rem;
     margin-inline: auto;
+    padding-inline: 2.5rem;
 
     display: flex;
     justify-content: center;
@@ -84,5 +84,21 @@ export const SocialMedia = styled.div`
             background: ${props => props.theme.blue400};
             border-radius: 4px;
         }
+    }
+`
+
+export const Dev = styled.div`
+    width: 100%;
+    padding: 5px;
+    background-color: ${props => props.theme.gray700};
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    a {
+        font-weight: 500;
+        color: ${props => props.theme.gray100};
     }
 `
